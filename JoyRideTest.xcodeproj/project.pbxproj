@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3259F422091B6350030846E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3259F412091B6350030846E /* AppDelegate.swift */; };
+		B3259F442091B6360030846E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3259F432091B6360030846E /* ViewController.swift */; };
+		B3259F472091B6360030846E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3259F452091B6360030846E /* Main.storyboard */; };
+		B3259F492091B6390030846E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3259F482091B6390030846E /* Assets.xcassets */; };
+		B3259F4C2091B6390030846E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3259F4A2091B6390030846E /* LaunchScreen.storyboard */; };
+		B3259F542091B7790030846E /* SFA5JoyRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3259F532091B7790030846E /* SFA5JoyRideViewController.swift */; };
+		B3259F562091D5140030846E /* SFA5JoyRideHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3259F552091D5140030846E /* SFA5JoyRideHelper.swift */; };
+		B3259F5C2091D5FD0030846E /* SFA5CustomObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3259F5B2091D5FD0030846E /* SFA5CustomObjects.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3259F3E2091B6350030846E /* JoyRideTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyRideTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3259F412091B6350030846E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3259F432091B6360030846E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3259F462091B6360030846E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3259F482091B6390030846E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3259F4B2091B6390030846E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3259F4D2091B6390030846E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3259F532091B7790030846E /* SFA5JoyRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFA5JoyRideViewController.swift; sourceTree = "<group>"; };
+		B3259F552091D5140030846E /* SFA5JoyRideHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFA5JoyRideHelper.swift; sourceTree = "<group>"; };
+		B3259F5B2091D5FD0030846E /* SFA5CustomObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFA5CustomObjects.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3259F3B2091B6350030846E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3259F352091B6350030846E = {
+			isa = PBXGroup;
+			children = (
+				B3259F402091B6350030846E /* JoyRideTest */,
+				B3259F3F2091B6350030846E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3259F3F2091B6350030846E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3259F3E2091B6350030846E /* JoyRideTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3259F402091B6350030846E /* JoyRideTest */ = {
+			isa = PBXGroup;
+			children = (
+				B3259F5A2091D5D80030846E /* SFA5CustomObjects */,
+				B3259F572091D51D0030846E /* SFA5JoyRide */,
+				B3259F412091B6350030846E /* AppDelegate.swift */,
+				B3259F432091B6360030846E /* ViewController.swift */,
+				B3259F532091B7790030846E /* SFA5JoyRideViewController.swift */,
+				B3259F452091B6360030846E /* Main.storyboard */,
+				B3259F482091B6390030846E /* Assets.xcassets */,
+				B3259F4A2091B6390030846E /* LaunchScreen.storyboard */,
+				B3259F4D2091B6390030846E /* Info.plist */,
+			);
+			path = JoyRideTest;
+			sourceTree = "<group>";
+		};
+		B3259F572091D51D0030846E /* SFA5JoyRide */ = {
+			isa = PBXGroup;
+			children = (
+				B3259F552091D5140030846E /* SFA5JoyRideHelper.swift */,
+			);
+			path = SFA5JoyRide;
+			sourceTree = "<group>";
+		};
+		B3259F5A2091D5D80030846E /* SFA5CustomObjects */ = {
+			isa = PBXGroup;
+			children = (
+				B3259F5B2091D5FD0030846E /* SFA5CustomObjects.swift */,
+			);
+			path = SFA5CustomObjects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3259F3D2091B6350030846E /* JoyRideTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3259F502091B6390030846E /* Build configuration list for PBXNativeTarget "JoyRideTest" */;
+			buildPhases = (
+				B3259F3A2091B6350030846E /* Sources */,
+				B3259F3B2091B6350030846E /* Frameworks */,
+				B3259F3C2091B6350030846E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoyRideTest;
+			productName = JoyRideTest;
+			productReference = B3259F3E2091B6350030846E /* JoyRideTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3259F362091B6350030846E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "iCatalogue GmbH";
+				TargetAttributes = {
+					B3259F3D2091B6350030846E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B3259F392091B6350030846E /* Build configuration list for PBXProject "JoyRideTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3259F352091B6350030846E;
+			productRefGroup = B3259F3F2091B6350030846E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3259F3D2091B6350030846E /* JoyRideTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3259F3C2091B6350030846E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3259F4C2091B6390030846E /* LaunchScreen.storyboard in Resources */,
+				B3259F492091B6390030846E /* Assets.xcassets in Resources */,
+				B3259F472091B6360030846E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3259F3A2091B6350030846E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3259F442091B6360030846E /* ViewController.swift in Sources */,
+				B3259F542091B7790030846E /* SFA5JoyRideViewController.swift in Sources */,
+				B3259F5C2091D5FD0030846E /* SFA5CustomObjects.swift in Sources */,
+				B3259F422091B6350030846E /* AppDelegate.swift in Sources */,
+				B3259F562091D5140030846E /* SFA5JoyRideHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3259F452091B6360030846E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3259F462091B6360030846E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3259F4A2091B6390030846E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3259F4B2091B6390030846E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3259F4E2091B6390030846E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3259F4F2091B6390030846E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3259F512091B6390030846E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X76HNCVT84;
+				INFOPLIST_FILE = JoyRideTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icatalogue.samples.JoyRideTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B3259F522091B6390030846E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X76HNCVT84;
+				INFOPLIST_FILE = JoyRideTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icatalogue.samples.JoyRideTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3259F392091B6350030846E /* Build configuration list for PBXProject "JoyRideTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3259F4E2091B6390030846E /* Debug */,
+				B3259F4F2091B6390030846E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3259F502091B6390030846E /* Build configuration list for PBXNativeTarget "JoyRideTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3259F512091B6390030846E /* Debug */,
+				B3259F522091B6390030846E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3259F362091B6350030846E /* Project object */;
+}
