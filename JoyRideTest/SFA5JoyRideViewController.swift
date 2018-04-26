@@ -33,7 +33,7 @@ class SFA5JoyRideViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         if self.currentIndex == (SFA5JoyRideHelper.sharedInstance.pages.count - 1) {
-            self.uiButtonNext.setTitle("Chiudi", for: UIControlState.normal)
+            self.uiButtonNext.setTitle("Close", for: UIControlState.normal)
         }
     }
     
